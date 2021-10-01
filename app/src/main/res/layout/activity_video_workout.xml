@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgvworkout"
+    tools:context=".video_workout_Activity">
+
+    <ImageView
+        android:id="@+id/ivvideoworkout"
+        android:layout_width="285dp"
+        android:layout_height="33dp"
+        android:background="@drawable/tvworkout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.579"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042" />
+
+    <ImageView
+        android:id="@+id/imagebutton1"
+        android:layout_width="189dp"
+        android:layout_height="37dp"
+        android:background="@drawable/basewkaki"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.744"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/imagebutton3"
+        android:layout_width="376dp"
+        android:layout_height="134dp"
+        android:background="@drawable/wtangan"
+        app:layout_constraintBottom_toTopOf="@+id/imagebutton1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imagebutton7"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/imagebutton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton5"
+        app:layout_constraintEnd_toStartOf="@+id/ivvideoworkout"
+        app:layout_constraintHorizontal_bias="0.409"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.325"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+    <ImageView
+        android:id="@+id/imageButton5"
+        android:layout_width="167dp"
+        android:layout_height="35dp"
+        android:background="@drawable/baseabs"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.162"
+        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/imageButton6"
+        android:layout_width="376dp"
+        android:layout_height="123dp"
+        android:background="@drawable/wabs"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.371"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.254"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/imagebutton7"
+        android:layout_width="186dp"
+        android:layout_height="34dp"
+        android:background="@drawable/basewtangan"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.44"
+        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/imagebutton8"
+        android:layout_width="373dp"
+        android:layout_height="126dp"
+        android:background="@drawable/wkaki"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.938"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
